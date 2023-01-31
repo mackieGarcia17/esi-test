@@ -1,0 +1,54 @@
+.esi-table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5px;
+    border-top: 5px solid #2aabe2;
+    border-left: 2px solid #00000029;
+    border-bottom: 2px solid #00000029;
+    padding: 23px 0 0 11px;
+    height: 650px;
+    overflow-y: auto;
+
+    &__search-input {
+        width: 200px;
+        height: 35px;
+        border-radius: 5px;
+        border: 1px solid #00000029;
+        margin-bottom: 5px;
+    }
+
+    table {
+        border-collapse: separate;
+        border-spacing: 0 5px;
+        .first-col {
+            padding-left: 10px;
+        }
+        thead {
+            tr {
+                th {
+                    color: #707070;
+                    font-size: 12px;
+                    text-align: left;
+                    background-color: #ffffff;
+                    height: 17px;
+                    opacity: 1;
+                }
+            }
+        }
+        tbody {
+            tr {
+                margin-bottom: 1px;
+                td {
+                    padding-bottom: 20px;
+                    color: #000000;
+                    font-size: 12px;
+                    text-align: left;
+                    background-color: #f1f4ff;
+                    height: 40px;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
